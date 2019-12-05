@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="211457" started-at="2019-12-05T11:01:56 EST" finished-at="2019-12-05T11:05:28 EST">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.exxon_mobil.runner.TestRunner@50b494a6]" name="feature" class="com.exxon_mobil.runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="211457" started-at="2019-12-05T11:01:56 EST" finished-at="2019-12-05T11:05:28 EST">
+      <class name="com.exxon_mobil.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.exxon_mobil.runner.TestRunner@50b494a6]" name="setUpClass" is-config="true" duration-ms="289" started-at="2019-12-05T11:01:56 EST" finished-at="2019-12-05T11:01:57 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.exxon_mobil.runner.TestRunner@50b494a6]" name="feature" duration-ms="67094" started-at="2019-12-05T11:01:57 EST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-12-05T11:03:04 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Global Footer Module]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.exxon_mobil.runner.TestRunner@50b494a6]" name="feature" duration-ms="47468" started-at="2019-12-05T11:03:04 EST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-12-05T11:03:51 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Global Header Module]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.exxon_mobil.runner.TestRunner@50b494a6]" name="feature" duration-ms="27589" started-at="2019-12-05T11:03:51 EST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-12-05T11:04:19 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Exxon Mobil home page tests]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.exxon_mobil.runner.TestRunner@50b494a6]" name="feature" duration-ms="68786" started-at="2019-12-05T11:04:19 EST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-12-05T11:05:28 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.exxon_mobil.runner.TestRunner@50b494a6]" name="tearDownClass" is-config="true" duration-ms="29" started-at="2019-12-05T11:05:28 EST" finished-at="2019-12-05T11:05:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.exxon_mobil.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
